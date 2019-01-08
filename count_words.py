@@ -28,7 +28,7 @@ def word_count(text):
 p = open('string.txt','r')
 try:
     text = p.read()
-    print(word_count(text))
+    print("This file contains "+ str(word_count(text))+" words")
 except:
     print('An exception was raised!')
 finally:
